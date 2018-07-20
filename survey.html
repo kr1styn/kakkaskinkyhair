@@ -1,0 +1,68 @@
+<html>
+<head>
+  <link rel = "stylesheet" type = "text/css" href="kakkastyle.css"></link>
+  <script>
+
+  function surveyResult(hairType){
+
+    window.alert("Your hair type is " + hairType);
+
+  }
+  </script>
+</head>
+<body>
+
+  <div class="topnav">
+     <a class="active" href="home.html">Home</a>
+     <!--dropdown button for 3 hair-->
+     <div class="dropdown">
+    <button class="dropbtn"> Type 3 Hair
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="3ahairtype.html">Type 3a</a>
+      <a href="3bhairtype.html">Type 3b</a>
+      <a href="3chair.html">Type 3c</a>
+    </div>
+  </div>
+
+     <!--dropdown button for 4 hair-->
+     <div class="dropdown">
+        <button class="dropbtn">Type 4 Hair
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="4ahairtype.html">Type 4a</a>
+          <a href="4bhairstyles.html">Type 4b</a>
+          <a href="4chair.html">Type 4c</a>
+        </div>
+      </div>
+
+     <a href="survey.html">Match Your Texture/Help</a>
+     <a href="aboutus.html"> About Us</a>
+   </div>
+  <div>
+
+<h2> How does your hair look when it gets wet? </h2>
+
+
+
+
+<div>
+  <img src ="FinalProjectPicture/3a wet.jpg" height= "200" width="200" onclick="surveyResult('3a')"><br>
+  <img src ="FinalProjectPicture/3b wet.jpg" height="200" width="200" onclick="surveyResult('3b')"><br>
+  <img src ="FinalProjectPicture/3c wet.jpg" height="200" width="200" onclick="surveyResult('3c')"><br>
+  <img src ="FinalProjectPicture/4a wet.jpg"height="200" width="200" onclick="surveyResult('4a')"><br>
+  <img src ="FinalProjectPicture/4bwet.jpg"height="200" width="200" onclick="surveyResult('4b')"><br>
+  <img src ="FinalProjectPicture/4c wet.jpg"height="200" width="200" onclick="surveyResult('4c')"><br>
+  <p id="survey result"></p>
+</div>
+<h2><center>Need Help???</center><h2>
+<p><center>If you are unsure of your hair type click Match your texture in the navigation bar and select the picture that matches how your hair looks once its wet.Click the picture that matches get your hair type above and then press ok<br>
+If you know yur hair type already feel free to click your hair type section and then your hair type.<br>
+When you are done searching click the home tab to return home.<br>
+Be sure to click on your hairtype only, for the other products for other hairtypes may not work for you or could possibly confise your hair growth, strength, and pattern<br>
+If you want to try and change your hair texture look on our homepage for ideas tips and products<br></center></p>
+</div>
+</body>
+</html>
